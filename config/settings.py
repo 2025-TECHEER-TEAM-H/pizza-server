@@ -140,8 +140,8 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-# React(3000번)가 보내는 요청은 허락하겠다!
+# React가 실행될 주소(5173 포트)를 허용해 줍니다.
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
 ]
